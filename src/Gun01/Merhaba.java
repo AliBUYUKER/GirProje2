@@ -6,12 +6,17 @@ public class Merhaba {
             Merhaba();
             System.out.print(i);
             System.out.println();
+        }int sayac=0;
+        do {
 
-        }
+            Merhaba();
+            System.out.print(sayac);
+            sayac++;
+        }while (sayac<5);
 
     }
 
     public static void Merhaba(){
-        System.out.print("Merhaba ");
+        System.out.print(" Merhaba ");
     }
 }
